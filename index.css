@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    color: black;
+    margin: auto;
+}
+
+/*nav bar css*/
+header{
+    height: 162px;
+    width: 100%;
+  /*  background-color:purple;*/
+}
+
+#navbar{
+  /* border: 1px solid red;*/
+    height: 38px;
+    width: 100%;
+    background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg);
+    position: fixed;
+   z-index: 900;
+}
+.iconbar{
+    height: 60px;
+    width: 100%;
+   border-top: 1px solid rgb(240, 238, 238);
+    margin-top: -59px;
+  
+}
+nav ul{
+    list-style: none;
+    color: #fc2779;
+    
+}
+nav ul a{
+    text-decoration: none;
+    float: right;
+    margin-right: 42px;
+    color: rgb(66, 65, 65);
+    font-weight: bold;
+    margin-top: -9px;
+}
+.moon-1{
+    margin-top: -11px;
+    font-size: 25px;
+    margin-left: 71px;
+    position: absolute;
+    color:black;
+}
+/*light and dark javascript*/
+.mydark{
+    background-color:rgb(193, 190, 190);
+    color:white;
+}
+.smokey{
+    color: black;
+    position: absolute;
+    margin-left: 144px;
+    margin-top: -9px;
+    font-size: 23px;
+    overflow: hidden;
+}
+/* ..........coupon-code............. */
+#coupon-div{
+    width: 100%;
+    border: 2px solid red;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(3, 2, 2, 0.562);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.inner-container{
+    width: 60%;
+    border: 2px solid green;
+    /* height: 84%; */
+    display: flex;
+    justify-content: center;
+}
+.inner-container .coupon{
+    width: 80%;
+    height: 100%;
+    border: 2px solid orangered;
+    position: relative;
+}
+.coupon img {
+    width: 100%;
+    margin-top: 136px;
+
+}
+#popupClose{
+width: 28px;
+height: 26px;
+right:0%;
+position:absolute;
+margin-top: 22%;
+cursor: pointer;
+color: #fc2779;
+border: none;
+
+}
+/* ..........coupon-code-end............. */
+ 
+
+
+.main{
+    height: 64px;
+  /*  border: 1px solid green;*/
+    position: absolute;
+    width: 100%;
+    margin-top: 22px;
+    background-color: white;
+}
+.Logo{
+    height: 60px;
+    width: 10%;
+   /* border: 1px solid green;*/
+    margin-left: 94px;
+}
+.Logo img{
+    width: 100%;
+    height: 100%;
+}
+.navbox{
+    height: 41px;
+    width: 47%;
+   /* border: 1px solid blue;*/
+    margin-top: 35px;
+    position: absolute;
+    margin-left: 16%;
+}
+.search-nyka{
+    height:45px;
+    width: 21%;
+   /*border:1px solid green;*/
+    position: absolute;
+    float: left;
+    margin-left:59%;
+    margin-top: 33px;
+}
+.dropdown{
+    height: 44px;
+    width: 277px;
+    background-color:#f4f4f4d5;
+    border-radius: 1px;
+    border-color:#f4f4f4d5;
+}
+/*.searchtext{
+    border-radius: 1px;
+    height: 44px;
+    width: 92%;
+    margin-top: 5px;
+    background-color:#f4f4f4d5;
+    border-style: none;
+    position: absolute;
+}*/
+.searchbtn{
+    position:absolute;
+    right: 29px;
+    margin-top: 18px;
+}
+.sign-in{
+    height:45px;
+    width: 17%;
+ /*  border:1px solid red; */
+    position: absolute;
+    margin-left:83%;
+    margin-top: 33px;
+}
+.button-1{
+    height:45px;
+    width: 42%;
+  /* border:1px solid blueviolet;*/
+    
+}
+.button{
+    color:white;
+    margin-left: 1px;
+    height: 42px;
+    width: 98%;
+    border-radius: 9px;
+    font-size: 17px;
+    background-color:rgb(252, 39, 121);
+    border:none;
+    
+}
+.button{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+   
+.button:hover{
+    transform: scale(1.04);
+}
+
+.fa-bag-shopping{
+  /*  border: 1px solid green;*/
+    margin-top: 5px;
+    margin-left:62px;
+    position: absolute;
+    color: black;
+}
+.navlist{
+    height: 56px;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+   /* background-color: red;*/
+    
+}.list{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    text-decoration:none;
+    
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration:none;
+    margin: 20px;
+    color: black;
+    font-weight: 400;
+}
+
+
+/*Land image css*/
+#image-container{
+height: 300px;
+/*border: 2px solid black;*/
+margin-top: 0%;
+}
+.image-container-2{
+    height: 250px;
+/*border: 2px solid brown;*/
+margin-top: 26px;
+}
+/*header part css*/
+.heading{
+    text-align: center;
+    margin-top: 44px;
+    font-size: 25px;
+    font-weight:500;
+}
+/*Land image css*/
+.container-Box{
+    /*height: 600px;*/
+   /* border:2px solid purple;*/
+    margin-top: 26px;
+    width: 90%;
+    margin: auto;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#Beautyheading{
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    color: #f63a5f;
+    margin-left: 21px;
+}
+#Boldheading{
+     font-size: 25px;
+     display: block;
+     font-family: 'Gill Sans', 'Gill Sans MT';
+     color: rgb(149, 149, 248);
+     margin-left: 46px;
+}
+.Tinycontainer{
+    height:350px ;
+    width:45% ;
+    /*border: 2px solid blue;*/
+    float: left;
+    margin-left: 35px;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.Tinycontainer{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+   
+.Tinycontainer:hover{
+    transform: scale(1.04);
+}
+
+
+.Tinycontainer-1{
+    height: 280px;
+    width: 100%;
+   /* border: 2px solid red*/
+}
+.Tinycontainer-1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.Tinycontainer-2{
+    width: 100%;
+    height: 67px;
+    /*border: 2px solid green;*/
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.Tinycontainer-heading1{
+    text-align: center;
+    color:crimson;
+}
+.Tinycontainer-heading2{
+    text-align: center;
+    color: rgb(47, 47, 47);
+}
+/*Land box section*/
+#box-images{
+    height: 300px;
+    width: 100%;
+   /* border: 2px solid green;*/
+    margin-top: 1%;
+}
+.box-container{
+    height: 250px;
+    width: 15%;
+   /* border: 1px solid red;*/
+    margin-top: 1%;
+    float: left;
+    margin-left: 1.5%;
+}
+.box-container{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.box-container:hover{
+    transform: scale(1.04);
+}
+
+/*Land image css*/
+.container-second{
+    height: 800px;
+    width: 80%;
+   /* border: 2px solid mediumvioletred;*/
+    margin-left: 10%;
+}
+.small-container{
+    height: 350px;
+    width: 30%;
+   /* border: 2px solid red;*/
+    float: left;
+    margin: 1%;
+    margin-left: 2%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.small-container{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+   
+
+.small-container:hover{
+    transform: scale(1.04);
+}
+
+.containerimg-1{
+    height: 280px;
+    width: 100%;
+    /*border: 2px solid chocolate;*/
+
+} 
+.containerimg-1 img{
+    width: 100%;
+    height: 100%;
+}
+.containerimg-2{
+    height:69px;
+    width: 100%;
+   /* border: 2px solid greenyellow;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.containerheading-1{
+    text-align: center;
+    color: #f63a5f;
+}
+.containerheading-2{
+    text-align: center;
+    color: rgb(50, 50, 50);
+}
+/*Land image css*/
+#container-third{
+    height: 390px;
+    width: 80%;
+   /* border: 2px solid red;*/
+    margin-left: 10%;
+}
+.containerbox-1{
+    height: 350px;
+    width: 45%;
+    /*border: 2px solid green;*/
+    float: left;
+    margin: 1%;
+    margin-left: 3%;
+}
+.containerimg{
+    height: 280px;
+    width: 100%;
+   /* border: 2px solid blue;*/
+    animation:dance 5s infinite;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+
+}
+@keyframes dance{
+    0%{transform: rotate(-5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(5deg);}
+}
+ 
+.containerimg img{
+    height: 100%;
+    width: 100%;
+}
+.containerimg-2{
+    height: 70px;
+    width: 100%;
+    border:2px solid #f63a5f;
+}
+.heading-1{
+    text-align: center;
+    margin-top: 2%;
+    color: #f63a5f;
+}
+/*Land section*/
+#single-img{
+    height: 250px;
+    width: 80%;
+   /* border:2px solid green;*/
+    margin-top: 3%;
+    margin-left: 10%;
+
+}
+.imagpic img{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+}
+.imagpic img{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.imagpic img:hover{
+    transform: scale(1.04);
+}
+#Cercle-pic{
+    height: 250PX;
+    width: 100%;
+   /* border:2px solid green;*/
+    margin-top: 2%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+    
+}
+
+.cercle-img{
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    animation:dance 1s infinite;
+}
+@keyframes dance{
+    0%{transform: rotate(-5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(5deg);}
+    0%{transform: rotate(0deg);}
+    0%{transform: rotate(10deg);}
+}
+/*Land section*/
+#end-container{
+    height: 100px;
+    width: 80%;
+    /*border: 1px solid red;*/
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.end-container-img img{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 hwb(0 2% 39% / 0.892);
+}
+/*crausal Land section*/
+#crausal-header{
+    height: 80px;
+    width: 100%;
+   /* border: 2px solid blue;*/
+    margin-top: 4%;
+
+}
+
+/*footer section*/
+footer{
+   /* height: 400px;
+    width: 100%;
+    border: 2px solid orangered;
+    background-color:rgb(250, 67, 128);*/
+   margin-top: 2%;
+   
+
+}
+.fapink{
+   color: #f63a5f;
+   font-size: 20px;
+   
+}
+.fapink{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+   
+.fapink:hover{
+    transform: scale(2.04);
+}
+.fablue{
+    color: purple;
+    font-size: 20px;
+}
+.fablue{
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+   
+.fablue:hover{
+    transform: scale(2.04);
+}
+
+.spanclr{
+    font-weight: bold;
+    font-size: 20px;
+}
+.background-color{
+    background-color:rgb(140 141 148);
+}
+.white-text{
+    color: white;
+}
+
+/*Final Footer*/
+#final-footer{
+    height: 90px;
+    width: 100%;
+   /* border: 1px solid black;*/
+    margin-top: 1%;
+}
+.footer-end{
+    height: 60px;
+   /* border: 1px solid red;*/
+    background-color: #fc2779;
+}
+.ul li a{
+    text-decoration: none;
+}
+
+.end-footer{
+    justify-content: center;
+    display: flex;
+    margin-top: 1%;
+} 
+.footertext{
+    text-align: center;
+    background-color: #fc2779;
+    color: white;
+    font-weight: bold;
+}
+.end-footer a{
+    color: white;
+    font-weight: 600;
+}
+
+/*Media screen*/
+@media only screen and (max-width:1400px){
+  /* body {
+        background-color: aqua  !important; 
+    } */
+    .Logo {
+        margin-left:23px;
+    }
+    .navbox {
+        margin-left:12%;
+    }
+    nav ul a{
+        margin-right: 37px;
+    }
+    /* #coupon{
+        margin-top:-404%;
+    }
+     */
+    }
+    
+    
+@media only screen and (max-width:1200px){
+     /*  body {
+            background-color: palevioletred  !important; 
+        } */
+          
+        nav ul a{
+            margin-right: 28px;
+        } 
+        .navbox{
+            display: none;
+        }
+        .search-box{
+            width: 41%;
+            margin-left: 52%;
+        }
+
+        
+    @media only screen and (max-width:900px){
+      /* body {
+               background-color: rgb(89, 115, 50)  !important; 
+            }  */
+      .navbox{
+        display:none ;
+      }
+      .Logo{
+        width: 25%;
+      }
+      .search-box {
+        margin-left: 43%;
+      }
+      #box-images{
+        display: none;
+      }
+      .searchbtn {
+        right: 151PX;
+      }
+      .searchtext {
+        width: 56%;
+      }
+        
+    #crausal-header{
+        display: none;
+    }
+    
+    #Cercle-pic {
+        display: none;
+    }
+    
+   
+    .button {
+    width: 29%;
+    margin-left: 23px;
+}
+    .Tinycontainer {
+width: 91%;}
+    .small-container {
+width: 97%;
+}
+     p{
+      display: none;
+}
+
+.box-container{
+margin-left:40.5%;
+}
+.iconbar{
+    display: none;
+}
+#image-container{
+    margin-top: -8%;
+}
+/* #coupon{
+    margin-top:-820%;
+} */
+
+
+}
+}
